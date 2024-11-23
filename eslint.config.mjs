@@ -17,6 +17,9 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort';
 import unicornPlugin from 'eslint-plugin-unicorn';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 export default tseslint.config(
   eslint.configs.recommended,
