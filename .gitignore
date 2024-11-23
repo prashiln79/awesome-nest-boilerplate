@@ -57,7 +57,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
 
 # next.js build output
 .next
@@ -85,3 +84,7 @@ db-data
 
 # Local History
 .history
+.swc/
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
